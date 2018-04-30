@@ -1,19 +1,13 @@
 def fizzbuzz(num)
   if num % 15 == 0
     "Fizzbuzz"
-  end
-
-  elsif 
+  elsif
     num % 3 == 0
     "Fizz"
-  end
 
-  elsif 
+  elsif
     num % 5 == 0
     "Buzz"
-  end
-
   else
     nil
-  end
 end
